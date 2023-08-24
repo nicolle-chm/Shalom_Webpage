@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shalom Website desing</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/-shalom1.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">INICIO</a></li>
+            <li><a href="about.html">NOSOTROS</a></li>
+            <li><a href="eventos.html">EVENTOS</a></li>
+            <li><a href="blog.html">COMUNIDAD</a></li>
+            <li><a href="contact.html">CONTACTO</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Comunidad Catolica Shalom</h1>
+    </section>
+
+    <!------ About us content------>
+    
+    <section class="about-us">
+      <div class="row">
+        <div class="about-col">
+          <h1>Grupos de oracion para JOVENES</h1>
+          <div class="center-button2">
+          <a class="hero-btn2 red-btn2"> Dia: Sabados <br> Hora: 5pm a 7pm <br> Lugar: Centro de Evagelizacion Shalom <br> Llevar: Biblias</a>
+        </div>
+      </div>
+        <div class="about-col">
+          <img src="images/jovenes.jpg">
+        </div>       
+      </div>
+      <div class="row">
+        <div class="about-col">
+          <h1>Grupos de oracion para ADULTOS</h1>
+          <div class="center-button2">
+            <a class="hero-btn2 red-btn2"> Dia: Sabados <br> Hora: 5pm a 7pm <br> Lugar: Centro de Evagelizacion Shalom <br> Llevar: Biblias</a>
+          </div>
+        </div>
+          <div class="about-col">
+          <img src="images/adultos.jpg">
+        </div>       
+      </div>
+
+    </section>
+
+    <!------Actividades----->
+
+<section class="actividades">
+  <h1>¿Que actividades hacemos?</h1>
+  <p> En la comunidad Shalom siempre estamos realizando actividades gratuitas para que todos se unan!</p> 
+  
+  <div class="row">
+    <div class="actividades-col">
+      <img src="images\adoracion.jpg">
+      <div class="lay">
+      <h3>Adoracion</h3>
+      </div>
+    </div>
+  <div class="actividades-col">
+    <img src="images\ham.jpg">
+    <div class="lay">
+    <h3>Noche <br> de Hamburguesas</h3>
+  </div>
+  </div>
+  <div class="actividades-col">
+    <img src="images\pollada.jpg">
+    <div class="lay">
+    <h3>Pollada de la Paz</h3> 
+  </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="actividades-col">
+    <img src="images\teatro1.jpg">
+    <div class="lay">
+    <h3>Teatro</h3>
+    </div>
+  </div>
+<div class="actividades-col">
+  <img src="images\misaaa.jpg">
+  <div class="lay">
+  <h3>Misas</h3>
+  </div>
+</div>
+<div class="actividades-col">
+  <img src="images\cursos.jpg">
+  <div class="lay">
+  <h3>Talleres</h3>
+  </div>
+</div>
+</div>
+
+<div class="row">
+  <div class="actividades-col">
+    <img src="images\retiro.jpg">
+    <div class="lay">
+    <h3>Retiros</h3>
+  </div>
+  </div>
+<div class="actividades-col">
+  <img src="images\deporte.jpg">
+  <div class="lay">
+  <h3>Juegos Deportivos</h3> 
+</div>
+</div>
+
+
+<div class="actividades-col">
+  <img src="images\guitarra.jpg">
+  <div class="lay">
+    <h3>Clases de Guitarra</h3>
+  </div>
+</div>
+
+</div>
+
+ </section>
+
+    
+
+     <!------Footer----->
+
+     <section class="footer">
+      <h4>Comunidad Catolica Shalom</h4>
+      <p> Siguenos en redes para manterte informado de todas nuestras actividades</p>
+      <div class="icons">
+        <a href="https://www.facebook.com/shalomlimape">
+        <i class="fa fa-facebook"></a></i>
+        
+        <a href="https://twitter.com/shtotheworld">
+        <i class="fa fa-twitter"></a></i>
+        <a href="https://www.instagram.com/shalomlimape/">
+        <i class="fa fa-instagram"></a></i>
+      </div>
+      <p>Made with <i class="fa fa-heart-o"></i> by Shalom</p>
+
+     </section>
+
+
+
+
+<!-------JavaScript for Toggle Menu-------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+  </body>
+</html>

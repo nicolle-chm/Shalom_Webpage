@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shalom Website desing</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/-shalom1.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">INICIO</a></li>
+            <li><a href="about.html">NOSOTROS</a></li>
+            <li><a href="eventos.html">EVENTOS</a></li>
+            <li><a href="blog.html">COMUNIDAD</a></li>
+            <li><a href="contact.html">CONTACTO</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Comunidad de Vida & Alianza</h1>
+    </section>
+
+        
+    <!------ Blog page ------>
+    
+<section class="blog-content">
+  <div class="row">
+    <div class="blog-left">
+      <img src="images/camino.jpg">
+      <h2>Ser Shalom Camino Vocacional y Formativo</h2>
+      <p> Los primeros pasos que damos dentro de la Comunidad comienzan justo después de nuestro Seminario de Vida en el Espíritu Santo. Después de la experiencia de efusión, caminamos en un grupo de oración, donde se nos invita a vivir una relación íntima con Dios y a conocer más el carisma. </p>
+      <br>
+      <p>Poco a poco, y viviendo una experiencia concreta en la Obra, algunos hermanos sienten una llamada más fuerte a dar pasos concretos y asumir un mayor compromiso, descubriendo la Vocación Shalom dentro de si. Así, nos encontramos ante dos dimensiones complementarias de la vocación Shalom que se pueden vivir: Comunidad de Vida y Comunidad de Alianza.</p>
+      <br>
+      <p>En la Comunidad, el itinerario formativo es otro y, como muchos llegan con dudas, decidimos presentar -resumidamente- los niveles que experimentamos luego de ingresar a la Comunidad.</p>
+
+      <div class="comment-box">
+        <h3>¿Quieres saber un poco más? Cuéntanos tus dudas.</h3>
+
+        <form class="comment-form">
+          <input type="text" placeholder="Coloca tu Nombre">
+          <input type="email" placeholder="Coloca tu email">
+          <textarea row="5" placeholder="Tu comentario">
+          </textarea>
+          <button type="submit" class="hero-btn red-btn">ENVIAR</button>
+        </form>
+      </div>
+    
+    </div>
+    <div class="right-container">
+      <h3>Camino Vocacional</h3>
+    <div class="blog-right">
+      <h3>Comunidad de Vida</h3>
+      <div>
+        <span>Postulantado</span>
+        <span>1 año</span>
+      </div>
+      <div>
+        <span>Discipulado</span>
+        <span>2 años</span>
+      </div>
+      <div>
+        <span>Consagracion</span>
+        <span>5 años</span>
+      </div>
+      <div>
+        <span>Promesas Definitivas</span>
+        <span>Para Siempre</span>
+      </div>
+    </div>
+    <br>
+    <div class="blog-right">
+      <h3>Comunidad de Alianza</h3>
+      <div>
+        <span>Postulantado</span>
+        <span>2 años</span>
+      </div>
+      <div>
+        <span>Discipulado</span>
+        <span>2 años</span>
+      </div>
+      <div>
+        <span>Consagracion</span>
+        <span>5 años</span>
+      </div>
+      <div>
+        <span>Promesas Definitivas</span>
+        <span>Para Siempre</span>
+      </div>
+    </div>
+  </div>
+
+  </div>
+
+</section>
+
+
+     <!------Footer----->
+
+     <section class="footer">
+      <h4>Comunidad Catolica Shalom</h4>
+      <p> Siguenos en redes para manterte informado de todas nuestras actividades</p>
+      <div class="icons">
+        <a href="https://www.facebook.com/shalomlimape">
+        <i class="fa fa-facebook"></a></i>
+        
+        <a href="https://twitter.com/shtotheworld">
+        <i class="fa fa-twitter"></a></i>
+        <a href="https://www.instagram.com/shalomlimape/">
+        <i class="fa fa-instagram"></a></i>
+      </div>
+      <p>Made with <i class="fa fa-heart-o"></i> by Shalom</p>
+
+     </section>
+
+<!-------JavaScript for Toggle Menu-------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+  </body>
+</html>

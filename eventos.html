@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shalom Website desing</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/-shalom1.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">INICIO</a></li>
+            <li><a href="about.html">NOSOTROS</a></li>
+            <li><a href="eventos.html">EVENTOS</a></li>
+            <li><a href="blog.html">COMUNIDAD</a></li>
+            <li><a href="contact.html">CONTACTO</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Eventos</h1>
+    </section>
+
+
+<!------Facilities----->
+
+<section class="facilities">
+  <h1>Proximos Eventos</h1>
+  <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus dolore commodi perferendis quisquam. Saepe minus dolore delectus itaque officia inventore, voluptas amet, pariatur minima harum velit, dignissimos nostrum sint cumque!</p>
+  
+  <div class="row">
+    <div class="facilities-col">
+      <a href="https://forms.gle/4tVv8JXyf3cBPfx97">
+      <img src="images\evento3_pe.jpg">
+      </a>
+      <h3>Retiro Santidad y Peregrinacion</h3>
+      <h4>19 al 20 de Agosto</h4> 
+      <p> SE VIENE NUESTRO RETIRO GENERAL DE LA JUVENTUD donde renovaremos nuestra experiencia con el resucitado qué pasó por la cruz! Por eso el tema de nuestro retiro será SANTIDAD, PEREGRINACIÓN Y CRUZ. Tendremos animación, adoración, danzas, koinonias y mucho más </p>
+      <div class="center-button">
+      <a href="https://forms.gle/4tVv8JXyf3cBPfx97" class="hero-btn red-btn">INSCRIBETE AHORA</a> 
+    </div>
+  </div>
+  <div class="facilities-col">
+    <a href="https://forms.gle/gSvDNLFjLb5RCwHe9">
+    <img src="images\evento2_sem.jpg">
+    </a>
+    <h3>Seminario de vida en el Espiritu Santo</h3>
+    <h4>9 al 10 de Septiembre</h4> 
+    <p> En estos dos días maravillosos vivirás una experiencia única, con otros jóvenes como tú, donde encontraras, amigos, diversion, alegría, comida rica, una experiencia que nunca pasa y entre otras cosas.
+      ¡Que nadie te lo cuente, vívelo! Para jóvenes de 14 a 29 años </p>
+      <div class="center-button"><a href="https://forms.gle/gSvDNLFjLb5RCwHe9" class="hero-btn red-btn">INSCRIBETE AHORA</a> 
+  </div>
+</div>
+  <div class="facilities-col">
+    <a href="https://forms.gle/VnUdt8DdzAetvEgL7">
+    <img src="images\evento4_con.jpg">
+    </a>
+    <h3>Congreso de Jóvenes Shalom</h3>
+    <h4>24 al 25 de Noviembre</h4> 
+    <p> ¡Este 24, 25 y 26 de noviembre, todos los jóvenes de Shalom, nos reuniremos en la Misión de Lima Perú, para vivir este momento único! ¡Ven con nosotros a vivir estos días de experiencia con el Resucitado que pasó por la cruz, y el cual nos hace vivir la alegría que no pasa! </p>
+    <div class="center-button">
+    <a href="https://forms.gle/VnUdt8DdzAetvEgL7" class="hero-btn red-btn">INSCRIBETE AHORA</a> 
+  </div>
+</div>
+</div>
+
+ </section>
+
+     <!------Footer----->
+
+     <section class="footer">
+      <h4>Comunidad Catolica Shalom</h4>
+      <p> Siguenos en redes para manterte informado de todas nuestras actividades</p>
+      <div class="icons">
+        <a href="https://www.facebook.com/shalomlimape">
+        <i class="fa fa-facebook"></a></i>
+        
+        <a href="https://twitter.com/shtotheworld">
+        <i class="fa fa-twitter"></a></i>
+        <a href="https://www.instagram.com/shalomlimape/">
+        <i class="fa fa-instagram"></a></i>
+      </div>
+      <p>Made with <i class="fa fa-heart-o"></i> by Shalom</p>
+
+     </section>
+
+<!-------JavaScript for Toggle Menu-------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+  </body>
+</html>
