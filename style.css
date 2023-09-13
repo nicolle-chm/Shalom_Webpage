@@ -193,9 +193,13 @@ nav .fa{
     .course-col:hover{
         box-shadow: 0 0 20px 0px rgba(1, 1, 2, 0.55);
     }
+
     @media(max-width: 700px){
         .row{
             flex-direction: column;
+        }
+        .course-col{
+            border-radius: 0%;
         }
     }
 
