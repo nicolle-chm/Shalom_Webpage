@@ -1,3 +1,4 @@
-# Shalom_webpage
-Volunteer as a web developer to create a website for this Catholic community
-link: http://www.shalomlima.xyz/
+# Shalom Webpage (Front-end web development)
+As a volunteer project, I independently conceptualized, designed, and developed a website from the ground up. This website was exclusively crafted for Shalom Lima, a vibrant and dynamic Catholic Community in Peru. The primary goal was to establish an online platform that not only showcases Shalom Lima's activities, monthly events, and social media, but also extends its outreach to a wider and diverse audience. My role involved close collaboration with community leaders to ensure that the website mirrored their vision and preferences. With a focus on user-friendliness, I integrated interactive features and designed an intuitive interface to enhance the overall user experience. This website now stands as a testament to my dedication, serving as a powerful tool to foster community engagement and to promote various.You can email Shalom Peru through the website, explore its location and enrol on upcoming events.
+
+Visit the website [here](http://www.shalomlima.xyz/)
