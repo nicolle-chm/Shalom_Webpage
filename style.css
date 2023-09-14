@@ -601,6 +601,9 @@ nav .fa{
         .sub-header h1{
             font-size:24px;
         }
+        .right-container {
+            margin-top: -20%;
+        }
     }
 
     /*-------------------contact us page-----------------*/
